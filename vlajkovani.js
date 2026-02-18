@@ -1,5 +1,3 @@
-javascript:
-
 if (window.location.href.indexOf('flags&mode=log') < 0) {
     //relocate
     window.location.assign(game_data.link_base_pure + "flags&mode=log&page=1");
