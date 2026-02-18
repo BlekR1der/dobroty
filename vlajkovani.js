@@ -127,7 +127,7 @@ var langShinko = {
         "Haul capacity": "BÃ¤rkapacitet",
         "Reduced package costs": "?"
     },
-    "en_DK": {
+    "cs_CZ": {
         "Produced nobleman": "Produkovaná šlechta",
         "Resource production": "Produkce surovin",
         "Recruitment speed": "Rychlost rekrutace",
