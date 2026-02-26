@@ -237,6 +237,8 @@ $.getAll(URLs,
                 // Produced nobleman
                 if (tempRows[j + 2].children[4].innerText.indexOf(langShinko[game_data.locale]["Vyprodukovaná šlechta"]) > -1) {
                     console.log("Found a grey flag!");
+                    console.log("TEXT:", tempRows[j + 2].children[4].innerText);
+                    console.log("HLEDÁM:", langShinko[game_data.locale]["Vyprodukovaná šlechta"]);
                     switch (tempRows[j + 2].children[1].innerText.trim()) {
                         case langShinko[game_data.locale]["Produkce surovin"]:
                             flagPerType["Resource production"] += 1;
